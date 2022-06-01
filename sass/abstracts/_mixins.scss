@@ -1,0 +1,8 @@
+@mixin cars {
+    border-radius: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
