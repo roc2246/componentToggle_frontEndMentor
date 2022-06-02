@@ -1,0 +1,28 @@
+main{
+ @include vertical-gap();
+  .plans-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    .plan {
+      @include card();
+      box-shadow: $box-shadow;
+      text-align: center;
+  
+      width: 15%;
+      hr {
+        width: 80%;
+      }
+      &--outer {
+        background-color: white;
+      }
+      &--inner {
+        z-index: 1;
+        background-color: $color-primary-dark;
+      }
+    }
+  }
+}
+

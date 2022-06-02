@@ -1,5 +1,12 @@
-@use "abstracts/variables";
-@use "abstracts/mixins";
-@use "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
 
-@use "vendors/fonts";
+@import "base/base";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+@import "vendors/fonts";

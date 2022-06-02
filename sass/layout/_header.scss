@@ -1,0 +1,13 @@
+header.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include vertical-gap();
+    .toggle-box{
+        display: flex;
+        flex-direction: row;
+        &__option, &__switch{
+            margin: .5rem;
+        }
+    }
+}

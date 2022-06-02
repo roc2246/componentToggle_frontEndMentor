@@ -1,11 +1,13 @@
-@mixin card($bg-color, $font-color) {
+@mixin card() {
     border-radius: 1rem;
     padding: 1rem;
 
     display: flex;
     flex-direction: column;
     align-content: center;
+}
 
-    background-color: $bg-color;
-    color: $font-color;
+@mixin vertical-gap() {
+    margin-top: calc(#{$vertical-gap});
+    margin-bottom: calc(#{$vertical-gap});
 }
