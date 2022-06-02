@@ -1,13 +1,31 @@
-h1  {
-    font-size: 2rem;
-}
-
-p, a, span{
-    font-weight: $font-weight;
-}
-
-.plan{
-    &__type{
-        margin-top: 0;
+.top {
+  &__heading {
+    color: $color-neutral;
+    font-size: 1.5rem;
+  }
+  .toggle-box {
+    &__option {
+      color: $color-light;
     }
+  }
+}
+
+p,
+a,
+span {
+  font-weight: $font-weight;
+}
+
+.plan {
+  &__type {
+    margin-top: 0;
+  }
+
+  &__cost {
+    font-size: 2rem;
+  }
+
+  &--inner{
+      color: white;
+  }
 }

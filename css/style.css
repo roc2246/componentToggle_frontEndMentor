@@ -9,14 +9,26 @@ body {
   background-position: left bottom, right top;
   background-repeat: no-repeat; }
 
-h1 {
-  font-size: 2rem; }
+.top__heading {
+  color: #6d708d;
+  font-size: 1.5rem; }
 
-p, a, span {
+.top .toggle-box__option {
+  color: #b3b5c6; }
+
+p,
+a,
+span {
   font-weight: 700; }
 
 .plan__type {
   margin-top: 0; }
+
+.plan__cost {
+  font-size: 2rem; }
+
+.plan--inner {
+  color: white; }
 
 .btn {
   cursor: pointer;
