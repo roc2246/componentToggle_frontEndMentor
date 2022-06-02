@@ -6,8 +6,13 @@ header.top{
     .toggle-box{
         display: flex;
         flex-direction: row;
-        &__option, &__switch{
+        &__option{
             margin: .5rem;
         }
+        &__switch{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
     }
+
 }
