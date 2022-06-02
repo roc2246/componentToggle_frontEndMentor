@@ -5,3 +5,9 @@ h1  {
 p, a, span{
     font-weight: $font-weight;
 }
+
+.plan{
+    &__type{
+        margin-top: 0;
+    }
+}

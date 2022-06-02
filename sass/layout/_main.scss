@@ -1,18 +1,24 @@
-main{
- @include vertical-gap();
+main {
+  @include vertical-gap();
   .plans-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  
+    height: 100%;
     .plan {
       @include card();
+      @include vertical-gap();
       box-shadow: $box-shadow;
       text-align: center;
-  
+
       width: 20rem;
-      height: auto;
+
+      &__cost{
+        &--monthly{
+          display: none;
+        }
+      }
       hr {
         width: 80%;
       }
@@ -23,7 +29,17 @@ main{
         z-index: 1;
         background-color: $color-primary-dark;
       }
+
+      .btn{
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+
+      &:nth-child(2) {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 3rem;
+      }
     }
   }
 }
-
