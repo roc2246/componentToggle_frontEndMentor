@@ -25,7 +25,9 @@ span {
   margin-top: 0; }
 
 .plan__cost {
-  font-size: 2rem; }
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
 .plan--inner {
   color: white; }
@@ -63,6 +65,8 @@ span {
     height: 0; }
     .switch input + .slider {
       background-color: #696fdd; }
+      .switch input + .slider:hover {
+        background-color: #a3a8f0; }
     .switch input:checked + .slider:before {
       transform: translateX(1.625rem); }
   .switch .slider {

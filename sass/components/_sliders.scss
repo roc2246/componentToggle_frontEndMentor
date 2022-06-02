@@ -8,15 +8,17 @@
     opacity: 0;
     width: 0;
     height: 0;
-    & + .slider{
+
+    & + .slider {
       background-color: $color-primary-dark;
+      &:hover {
+        background-color: $color-primary-light;
+      }
     }
 
     &:checked + .slider:before {
       transform: translateX(1.625rem);
     }
-
-
   }
 
   .slider {
