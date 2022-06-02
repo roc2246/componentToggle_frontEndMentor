@@ -5,7 +5,7 @@ html {
 body {
   font-family: "Overpass", sans-serif;
   background-color: #f6f6fe;
-  background-image: url("/images/bg-bottom.svg"), url("/images/bg-top.svg");
+  background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
   background-position: left bottom, right top;
   background-repeat: no-repeat; }
 

@@ -7,7 +7,7 @@ body {
 
   background-color: $color-very-light;
 
-  background-image: url("/images/bg-bottom.svg"), url("/images/bg-top.svg");
+  background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
   background-position: left bottom, right top;
   background-repeat: no-repeat;
 }
