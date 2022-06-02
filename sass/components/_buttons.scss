@@ -1,0 +1,14 @@
+.btn{
+    cursor: pointer;
+    border-radius: .5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    &--white{
+        @include btn-state($color-very-light, $color-primary-dark);
+    }
+
+    &--purple{
+        @include btn-state($color-primary-dark, $color-very-light);
+    }
+}

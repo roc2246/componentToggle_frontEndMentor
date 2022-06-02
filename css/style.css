@@ -9,6 +9,34 @@ body {
   background-position: left bottom, right top;
   background-repeat: no-repeat; }
 
+h1 {
+  font-size: 2rem; }
+
+p, a, span {
+  font-weight: 700; }
+
+.btn {
+  cursor: pointer;
+  border-radius: .5rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem; }
+  .btn--white {
+    background-color: #f6f6fe;
+    color: #696fdd; }
+    .btn--white:active {
+      border: solid;
+      background-color: #696fdd;
+      border-color: #f6f6fe;
+      color: #f6f6fe; }
+  .btn--purple {
+    background-color: #696fdd;
+    color: #f6f6fe; }
+    .btn--purple:active {
+      border: solid;
+      background-color: #f6f6fe;
+      border-color: #696fdd;
+      color: #696fdd; }
+
 header.top {
   display: flex;
   flex-direction: column;
@@ -37,7 +65,8 @@ main {
       align-content: center;
       box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.603);
       text-align: center;
-      width: 15%; }
+      width: 20rem;
+      height: auto; }
       main .plans-box .plan hr {
         width: 80%; }
       main .plans-box .plan--outer {
